@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts/form.js"></script>
+    </head>
+
+<body class="home">
+    <div class="header">
+        <a href="index.html"><button class="btn solid" id="signin-signup-button">Sign In / Register</button></a>
+        <img src="img/home.svg" id="home-icon">
+        <div class="username-button-logout">
+            <p id="username"></p>
+            <button onclick="javascript:signOut()" class="btn transparent" id="logout">Logout</button>
+        </div>
+    </div>
+    <!-- <script src="scripts/home.js"></script> -->
+</body>
+
+</html>
